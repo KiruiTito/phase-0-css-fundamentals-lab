@@ -1,66 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <title>Exceptional Realty Group - Luxury Homes - About</title>
-    <!-- Don't forget to link your CSS file! -->
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <header>
-      <!-- logo -->
-      <h1>Exceptional Realty Group</h1>
-
+      <h1 style="text-align: center;">My Website</h1>
       <nav>
-        <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </nav>
     </header>
-
-    <section id="featured-property">
-      <figure>
-        <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
-        <figcaption>345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards.</figcaption>
-      </figure>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, perferendis nisi nihil debitis aspernatur doloribus quam eveniet quibusdam tempora esse! Repudiandae, assumenda, debitis doloribus ea eius ab at quae totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, inventore aliquid ipsam debitis nulla vitae omnis nemo quisquam? Obcaecati dolor ipsum distinctio reprehenderit aliquid autem ea vel provident voluptas nisi.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, natus, nobis, tempore recusandae culpa deleniti dignissimos laborum perspiciatis exercitationem obcaecati dolores unde eveniet eius debitis perferendis provident porro. Ipsum, placeat.</p>
-    </section>
-
-    <section id="details">
-      <div>
-        <h3>Contact</h3>
-        <p>
-          <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
-          +1 710 555 1234<br>
-          @fakeRealty
-        </p>
+    <main>
+      <img src="./images/beach.jpg" alt="Beach" style="display: block; margin: auto;">
+      <p style="text-align: center; font-size: 20px;">A beautiful beach.</p>
+      <div id="featured-property" style="width: 800px; margin: 50px auto; text-align: center;">
+        <h2>Featured Property</h2>
+        <p style="margin-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius lectus mauris, ut feugiat libero suscipit ut. Nullam ut diam vel eros lobortis tempor.</p>
+        <p style="width: 800px; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius lectus mauris, ut feugiat libero suscipit ut. Nullam ut diam vel eros lobortis tempor. Fusce tincidunt elit id elit consequat, ut consequat quam aliquam. Vestibulum ac ex eget enim ultricies auctor vel id elit. Duis elementum, dolor in faucibus ultricies, tortor risus volutpat mauris, eu tincidunt orci velit sit amet mi. Nunc ut nibh vel metus auctor tempor. Cras ut tortor ligula.</p>
       </div>
-      
-      <div>
-        <h3>Correspondence</h3>
-        <p>
-          Exceptional Realty<br>
-          P.O. Box 5555<br>
-          Brooklyn, NY 11201
-        </p>
+      <div id="details" style="overflow: auto;">
+        <div style="width: 25%; float: left; background-color: #ddd; text-align: center;">
+          <h3>Details 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius lectus mauris, ut feugiat libero suscipit ut.</p>
+        </div>
+        <div style="width: 25%; float: left; background-color: #ddd; text-align: center;">
+          <h3>Details 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius lectus mauris, ut feugiat libero suscipit ut.</p>
+        </div>
+        <div style="width: 25%; float: left; background-color: #ddd; text-align: center;">
+          <h3>Details 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius lectus mauris, ut feugiat libero suscipit ut.</p>
+        </div>
+        <div style="width: 25%; float: left; background-color: #ddd; text-align: center;">
+          <h3>Details 4</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius lectus mauris, ut feugiat libero suscipit ut.</p>
+        </div>
       </div>
-
-      <div>
-        <h3>Links</h3>
-        <p>
-          <a href="#" target="_blank">Home Restoration</a><br>
-          <a href="#" target="_blank">Affordable Mortgages</a><br>
-          <a href="#" target="_blank">Professional Moving Crew</a>
-        </p>
-      </div>
-
-      <div>
-        <h3>Follow</h3>
-        <p>
-          <a href="#" target="_blank">YouTube</a><br>
-          <a href="#" target="_blank">Facebook</a><br>
-          <a href="#" target="_blank">Twitter</a>
-        </p>
-      </div>
-    </section>
-  </body>
-</html>
+    </main>
+    <footer>
+      <div style="width: 100%; background-color: #ddd; text-align:
